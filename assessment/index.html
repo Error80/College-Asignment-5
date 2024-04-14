@@ -27,8 +27,11 @@
       </ul>
 
       <form class="search">
-        <input type="search" name="q" placeholder="Search query">
-        <input type="submit" value="Go!">
+        <input type="search" id="searchbar" name="q" placeholder="Search query">
+        <label hidden for="searchbar">Search Bar</label>
+        <input type="submit" id="confirm" value="Go!">
+        <label hidden for="confirm">Go</label>
+
       </form>
     </div>
 
@@ -124,12 +127,12 @@
 
             <form class="comment-form">
               <div class="flex-pair">
-                Your name:
+                <label class="comment" for="name"> name:</label>
                 <input type="text" name="name" id="name" placeholder="Enter your name">
               </div>
-              <div class="flex-pair">
-                Your comment:
-                <input type="text" name="comment" id="comment" placeholder="Enter your comment">
+              <div class="flex-pair"> 
+                <label class="comment" for="comment"> Your comment:</label>
+                <input type="text" n  zame="comment" id="comment" placeholder="Enter your comment">
               </div>
               <div>
                 <input type="submit" value="Submit comment">

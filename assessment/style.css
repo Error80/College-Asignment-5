@@ -206,7 +206,7 @@ audio {
 
 .comment-form input {
   margin-left: 1rem;
-  flex: 6;
+  flex: 15;
 }
 
 .show-hide {
