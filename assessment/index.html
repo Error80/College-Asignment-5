@@ -20,16 +20,16 @@
 
     <div class="nav">
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Our team</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Blog</a></li>
+        <li tabindex="1"><a href="#">Home</a></li>
+        <li tabindex="2"><a href="#">Our team</a></li>
+        <li tabindex="3"><a href="#">Projects</a></li>
+        <li tabindex="4"><a href="#">Blog</a></li>
       </ul>
 
       <form class="search">
-        <input type="search" id="searchbar" name="q" placeholder="Search query">
+        <input type="search" id="searchbar" name="q" placeholder="Search query" tabindex="5">
         <label hidden for="searchbar">Search Bar</label>
-        <input type="submit" id="confirm" value="Go!">
+        <input type="submit" id="confirm" value="Go!" tabindex="6">
         <label hidden for="confirm">Go</label>
 
       </form>
@@ -52,6 +52,7 @@
         Bears can also be classified in terms of their habitat — both large and medium bears are just as at home in urban areas as they are in the countryside. Different habitats encourange different behaviour however, as you'll find out below. The below table also gives you some useful facts about bears.
         <br><br>
         <table>
+          <caption>A table about the diffrences of a wild and a urban bear</caption>
           <thead>
             <tr>
               <td>Bear Type</td>
@@ -100,7 +101,7 @@
         <br><br>
         The following audio clip contains a fact file providing more details about bear mating rituals, along with samples and quotes from experts.
         <br><br>
-        <audio controls>
+        <audio controls tabindex="7">
           <source src="media/bear.mp3" type="audio/mp3">
           <source src="media/bear.ogg" type="audio/ogg">
           <p>It looks like your browser doesn't support HTML5 audio players. <a href="media/bear.mp3">Audio Download</a></p>
@@ -119,7 +120,7 @@
 
         </aside>
         <section class="comments">
-          <div class="show-hide">Show comments</div>
+          <div class="show-hide" tabindex="8">Show comments</div>
 
           <div class="comment-wrapper">
 
@@ -161,11 +162,11 @@
         <font size="6">Related</font>
 
         <ul>
-          <li><a href="#">The trouble with Bees</a></li>
-          <li><a href="#">The trouble with Otters</a></li>
-          <li><a href="#">The trouble with Penguins</a></li>
-          <li><a href="#">The trouble with Octopi</a></li>
-          <li><a href="#">The trouble with Lemurs</a></li>
+          <li tabindex="9"><a href="#">The trouble with Bees</a></li>
+          <li tabindex="10"><a href="#">The trouble with Otters</a></li>
+          <li tabindex="11"><a href="#">The trouble with Penguins</a></li>
+          <li tabindex="12"><a href="#">The trouble with Octopi</a></li>
+          <li tabindex="13"><a href="#">The trouble with Lemurs</a></li>
         </ul>
       </div>
     </main>
